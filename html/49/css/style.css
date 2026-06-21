@@ -1,0 +1,11 @@
+header {
+  font-size: 2em;
+  background-color: black;
+  color: orangered;
+  text-align: center;
+}
+body {
+  background-color: orangered;
+  color: black;
+}
+
