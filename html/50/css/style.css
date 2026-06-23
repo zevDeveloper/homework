@@ -1,0 +1,49 @@
+header {
+  border-color: aliceblue;
+  border-style: dashed;
+  border-radius: 100px;
+  font-size: 2em;
+  background-color: black;
+  color: orangered;
+  text-align: center;
+}
+body {
+  background-color: orangered;
+  color: black;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: orangered;
+  padding-bottom: 1em;
+}
+a:hover, a:visited{
+  color: aliceblue;
+}
+a:active{
+  color: #333;;
+}
+nav {
+  padding-bottom: 1em;
+}
+div {
+  text-align: center;
+}
+p.text {
+  color: aliceblue;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+span {
+  font-weight: bolder;
+  color: black;
+}
