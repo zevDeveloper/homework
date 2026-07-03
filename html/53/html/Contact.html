@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/zlogo.jpg" />
+    <title>Contact Us</title>
+    <style>
+      html * {
+        box-sizing: border-box;
+        font-size: 10px;
+      }
+      body > div {
+        font-size: 3rem;
+      }
+      h1::first-letter {
+        color: blue;
+      }
+      h1 + p {
+        font-size: 2rem;
+      }
+      h1 ~ p {
+        font-style: italic;
+      }
+      [myattribute] {
+        font-weight: bolder;
+      }
+      .order,
+      #order {
+        border: 1px solid black;
+      }
+      [type*="text"] {
+        font-weight: bolder;
+      }
+      form :nth-child(odd) {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="formarea">
+      im direct inside div
+      <h1>Your Info</h1>
+      <p myattribute>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+        possimus sit et vel natus qui beatae, tempora velit excepturi provident
+        fugit commodi ullam deleniti, fuga sapiente quia dolores dicta pariatur?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+        possimus sit et vel natus qui beatae, tempora velit excepturi provident
+        fugit commodi ullam deleniti, fuga sapiente quia dolores dicta pariatur?
+      </p>
+      <form>
+        <label for="first name">First Name</label>
+        <input class="1" type="text" />
+        <label for="last name">Last Name</label>
+        <input type="text" />
+        <label for="middle initial">Middle Initial</label>
+        <input type="text" />
+        <label for="number ">Number</label>
+        <input type="text" />
+        <label for="email">Email</label>
+        <input type="email" />
+        <label for="comments">Comments</label>
+        <input type="textarea" />
+      </form>
+    </div>
+    <table class="order" id="order">
+      <thead>
+        <tr>
+          <th>apps</th>
+          <th>entrees</th>
+          <th>desserts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Item 1</td>
+          <td>Item 2</td>
+          <td>Item 3</td>
+        </tr>
+        <tr>
+          <td>Item 1</td>
+          <td>Item 2</td>
+          <td>Item 3</td>
+        </tr>
+        <tr>
+          <td>Item 1</td>
+          <td>Item 2</td>
+          <td>Item 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>$10</td>
+          <td>$10</td>
+          <td>$10</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
