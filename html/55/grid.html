@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 600px;
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(10, 10%);
+      }
+      .colorbox {
+        grid-row: span 3;
+      }
+      .red {
+        background-color: red;
+        grid-row: 5/7;
+        grid-column: 1 / 6;
+      }
+      .blue {
+        background-color: blue;
+        grid-column: 5/7;
+        grid-row: 1 / 6;
+      }
+      .green {
+        background-color: green;
+        grid-row: 5/7;
+        grid-column: -1 / -6;
+      }
+      .orange {
+        background-color: orange;
+        grid-column: 5/7;
+        grid-row: -1 / -6;
+      }
+      .finalbox {
+        background-color: red;
+        grid-row: 6/7;
+        grid-column: 5/6;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="colorbox red"></div>
+      <div class="colorbox blue"></div>
+      <div class="colorbox green"></div>
+      <div class="colorbox orange"></div>
+      <div class="finalbox"></div>
+    </section>
+  </body>
+</html>
