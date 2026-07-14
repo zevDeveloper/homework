@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+    <style>
+      body {
+        padding: 1em;
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 20% 20%;
+      }
+      .dice {
+        display: grid;
+        grid-template-areas:
+          "a b c"
+          "d e f"
+          "g h i";
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        padding: 0.5em 0.75em;
+        border-radius: 20%;
+        box-sizing: border-box;
+      }
+      .dot {
+        height: 1em;
+        width: 1em;
+        background-color: black;
+        border-radius: 50%;
+      }
+      .a {
+        grid-area: a;
+      }
+      .b {
+        grid-area: b;
+      }
+      .c {
+        grid-area: c;
+      }
+      .d {
+        grid-area: d;
+      }
+      .e {
+        grid-area: e;
+      }
+      .f {
+        grid-area: f;
+      }
+      .g {
+        grid-area: g;
+      }
+      .h {
+        grid-area: h;
+      }
+      .i {
+        grid-area: i;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dice">
+      <div class="dot e"></div>
+    </div>
+    <div class="dice">
+      <div class="dot a"></div>
+      <div class="dot i"></div>
+    </div>
+    <div class="dice">
+      <div class="dot a"></div>
+      <div class="dot e"></div>
+      <div class="dot i"></div>
+    </div>
+    <div class="dice">
+      <div class="dot a"></div>
+      <div class="dot g"></div>
+      <div class="dot c"></div>
+      <div class="dot i"></div>
+    </div>
+    <div class="dice">
+      <div class="dot a"></div>
+      <div class="dot g"></div>
+      <div class="dot c"></div>
+      <div class="dot i"></div>
+      <div class="dot e"></div>
+    </div>
+    <div class="dice 6">
+      <div class="dot d"></div>
+      <div class="dot a"></div>
+      <div class="dot g"></div>
+      <div class="dot c"></div>
+      <div class="dot i"></div>
+      <div class="dot f"></div>
+    </div>
+  </body>
+</html>
