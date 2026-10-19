@@ -1,0 +1,5 @@
+[
+  {"id": "1",  "ingredients": ["beans", "barley", "potatoes"]},
+  {"id": "2", "ingredients": ["onion", "oil", "potatoes"]},
+  {"id": "3", "ingredients": ["chicken", "spices", "oil"]}
+]

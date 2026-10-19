@@ -1,0 +1,5 @@
+[
+  {"id": "1", "name": "cholent", "pic": "folderImages/cholent.jpg"  },
+  {"id": "2", "name": "kugel",  "pic": "folderImages/kugel.jpg" },
+  {"id": "3", "name": "chicken cutlet",  "pic": "folderImages/chicken.jpg" }
+]
