@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+      }
+
+      .controls label {
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+
+      #theCanvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <button class="create">Create Balls</button>
+
+      <label>
+        Color:
+        <input type="color" id="ballColor" value="#ff0000" />
+      </label>
+
+      <label>
+        Radius:
+        <input type="number" id="ballRadius" value="40" min="5" max="200" />
+      </label>
+    </div>
+
+    <canvas id="theCanvas"></canvas>
+    <script src="ball.js" type="module"></script>
+  </body>
+</html>
